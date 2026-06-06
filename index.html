@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>오늘 뭐 먹지? | 대학생 맞춤 음식 추천</title>
+  <meta name="description" content="수업 후 빠르게 메뉴를 고를 수 있도록 돕는 대학생 맞춤 음식 추천 웹사이트" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">🍽️</div>
+      <div>
+        <strong>오늘 뭐 먹지?</strong>
+        <span>대학생 맞춤 음식 추천</span>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#about">소개</a>
+      <a href="#features">주요 기능</a>
+      <a href="#flow">이용 흐름</a>
+      <a href="#menu">메뉴 예시</a>
+      <a href="#contact">제작 정보</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">HTML · CSS 기반 정적 웹사이트</p>
+        <h1>수업 후, 고민 없이<br />바로 먹고 싶은 메뉴를 찾는 사이트</h1>
+        <p class="lead">
+          이 웹사이트는 학생들이 시간·상황·취향에 맞는 식사 메뉴를 빠르게 정할 수 있도록 돕는
+          음식 추천 서비스입니다. 자바스크립트 없이도 정보 구조와 시각적 완성도를 높여
+          과제 제출용 결과물로 바로 사용할 수 있게 구성했습니다.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#menu">추천 메뉴 보기</a>
+          <a class="btn ghost" href="#about">기획 의도 보기</a>
+        </div>
+        <div class="stats">
+          <div><strong>4</strong><span>주요 카테고리</span></div>
+          <div><strong>3</strong><span>상황별 추천</span></div>
+          <div><strong>100%</strong><span>정적 구현</span></div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="card-header">
+          <span>오늘의 추천</span>
+          <span class="pill">학생 맞춤형</span>
+        </div>
+        <div class="food-visual">
+          <div class="dish-emoji">🍜</div>
+          <h2>든든한 한 끼, 국물 있는 메뉴</h2>
+          <p>시험 기간과 야간 학습 후에도 부담 없이 먹기 좋은 따뜻한 식사를 강조합니다.</p>
+        </div>
+        <ul class="check-list">
+          <li>혼밥 / 친구와 식사 / 야식 상황 반영</li>
+          <li>한식, 중식, 양식, 분식 카테고리 구성</li>
+          <li>사진·설명·특징 중심의 직관적 배치</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section split">
+      <div class="section-title">
+        <p>01. 웹사이트 목적</p>
+        <h2>“오늘 뭐 먹지?” 고민을 빠르게 해결하는 음식 추천 사이트</h2>
+      </div>
+      <div class="content-grid two">
+        <article class="panel">
+          <h3>목적</h3>
+          <p>
+            수업이 끝난 뒤 식사 메뉴를 결정하는 데 드는 시간을 줄이고, 학생이 자신의 상황에 맞는
+            음식을 쉽게 찾을 수 있도록 돕는 것을 목표로 합니다.
+          </p>
+        </article>
+        <article class="panel">
+          <h3>목표</h3>
+          <p>
+            공개적으로 보여줄 수 있는 완성도 높은 웹사이트를 제작하고, 대학생활과 관심 분야를
+            음식이라는 친숙한 주제로 연결해 정리할 수 있도록 합니다.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-title">
+        <p>02. 주요 기능</p>
+        <h2>기획 의도에 맞게 정리한 핵심 콘텐츠</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature">
+          <span class="feature-num">A</span>
+          <h3>상황별 추천</h3>
+          <p>빠르게 먹기, 든든하게 먹기, 야식처럼 실제 학생 생활에 맞춘 선택 기준을 제시합니다.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-num">B</span>
+          <h3>카테고리 구성</h3>
+          <p>한식, 중식, 양식, 분식으로 구분해 원하는 취향의 메뉴를 쉽게 탐색할 수 있습니다.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-num">C</span>
+          <h3>시각적 정보</h3>
+          <p>대표 이미지, 간단한 설명, 특징을 함께 보여 주어 한눈에 비교하기 쉬운 구조로 구성했습니다.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-num">D</span>
+          <h3>반응형 UI</h3>
+          <p>모바일과 PC 환경에서 모두 보기 편하도록 그리드와 카드 레이아웃을 적용했습니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="flow" class="section split">
+      <div class="section-title">
+        <p>03. 제작 과정</p>
+        <h2>기획부터 구현, 출판까지 한눈에 보이는 흐름</h2>
+      </div>
+      <div class="timeline">
+        <div class="step">
+          <span>1</span>
+          <div>
+            <h3>기획 정리</h3>
+            <p>대상 사용자를 대학생으로 설정하고, 메뉴 결정의 불편함을 해결하는 방향으로 목적을 확정했습니다.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span>2</span>
+          <div>
+            <h3>화면 구성</h3>
+            <p>인트로, 소개, 기능, 추천 메뉴, 제작 정보가 자연스럽게 이어지는 정보 구조를 설계했습니다.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span>3</span>
+          <div>
+            <h3>HTML/CSS 구현</h3>
+            <p>섹션별 의미 구조를 살리고 카드형 레이아웃, 그라데이션, 버튼, 배지 등을 활용해 완성도를 높였습니다.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span>4</span>
+          <div>
+            <h3>Github Pages 출판</h3>
+            <p>정적 파일만으로도 배포 가능하도록 구성하여 온라인 공개와 제출이 가능한 형태를 목표로 했습니다.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section">
+      <div class="section-title">
+        <p>04. 메뉴 예시</p>
+        <h2>카테고리와 상황에 맞는 추천 구성</h2>
+      </div>
+      <div class="menu-layout">
+        <article class="menu-card menu-primary">
+          <div class="menu-image">🍚</div>
+          <h3>한식</h3>
+          <p>김치찌개, 제육볶음, 비빔밥처럼 익숙하고 든든한 식사.</p>
+          <span>혼밥 · 든든한 한 끼</span>
+        </article>
+        <article class="menu-card">
+          <div class="menu-image">🍜</div>
+          <h3>중식</h3>
+          <p>짜장면, 짬뽕, 볶음밥처럼 빠르고 만족도 높은 메뉴.</p>
+          <span>빠르게 먹기</span>
+        </article>
+        <article class="menu-card">
+          <div class="menu-image">🍝</div>
+          <h3>양식</h3>
+          <p>파스타, 리조또, 샐러드로 분위기 있는 식사 연출.</p>
+          <span>친구와 식사</span>
+        </article>
+        <article class="menu-card">
+          <div class="menu-image">🍢</div>
+          <h3>분식</h3>
+          <p>떡볶이, 김밥, 순대처럼 가볍고 친근한 선택지.</p>
+          <span>야식 · 간식</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section highlight">
+      <div class="highlight-box">
+        <div>
+          <p>05. 기획과 다른 구현 내용</p>
+          <h2>자바스크립트 대신 정적 구조와 디자인 완성도에 집중</h2>
+        </div>
+        <p>
+          초기 기획에서는 동적 추천 기능을 고려했지만, 최종 결과물은 HTML과 CSS만으로 구성하여
+          안정적인 제출물과 높은 시각적 완성도를 우선했습니다. 대신 각 섹션의 설명, 카드 구성,
+          반응형 배치를 강화해 정보 전달력과 사용성을 높였습니다.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section footer-section">
+      <div class="footer-card">
+        <div>
+          <p>제작자 정보</p>
+          <h3>주수혁</h3>
+          <span>웹사이트 제작 및 출판 결과 보고서용 결과물</span>
+        </div>
+        <div class="footer-meta">
+          <p>출판 주소 예시</p>
+          <strong>https://your-id.github.io/food-web</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
